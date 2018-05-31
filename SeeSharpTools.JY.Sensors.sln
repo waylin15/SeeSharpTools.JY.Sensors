@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeSharpTools.JY.Sensors", "SeeSharpTools.JY.Sensors\SeeSharpTools.JY.Sensors.csproj", "{637B6404-B806-476D-9B54-846C0B08380B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sensors.Example", "Examples\RTD\Sensors.Example.csproj", "{F34882A4-0660-4505-BA90-B3E42DEA17F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{2410FD85-F893-4F76-96F4-D5F0EA9E63C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{637B6404-B806-476D-9B54-846C0B08380B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637B6404-B806-476D-9B54-846C0B08380B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637B6404-B806-476D-9B54-846C0B08380B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637B6404-B806-476D-9B54-846C0B08380B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34882A4-0660-4505-BA90-B3E42DEA17F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34882A4-0660-4505-BA90-B3E42DEA17F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34882A4-0660-4505-BA90-B3E42DEA17F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34882A4-0660-4505-BA90-B3E42DEA17F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F34882A4-0660-4505-BA90-B3E42DEA17F4} = {2410FD85-F893-4F76-96F4-D5F0EA9E63C0}
+	EndGlobalSection
+EndGlobal
